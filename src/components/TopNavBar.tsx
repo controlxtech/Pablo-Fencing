@@ -4,7 +4,7 @@
  */
 
 import { useState } from 'react';
-import { Menu, X, Hammer, Phone } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface TopNavBarProps {
   onQuoteClick: () => void;
@@ -39,7 +39,7 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
               PABLO FENCING
             </span>
             <span className="font-mono text-[9px] font-bold uppercase tracking-widest text-brand-secondary">
-              BUILT TOUGH GUARANTEE
+              Built tough, backed by Pablo
             </span>
           </div>
         </a>
@@ -59,13 +59,6 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
 
         {/* Desktop Quote Button & Mobile Menu Toggle */}
         <div className="flex items-center gap-4">
-          <a
-            href="tel:+1410234456"
-            className="hidden lg:flex items-center gap-2 font-mono text-xs font-bold text-brand-primary hover:text-brand-secondary transition-colors"
-          >
-            <Phone className="h-4 w-4 text-brand-secondary" />
-            <span>(410) 234-456</span>
-          </a>
           <button
             onClick={onQuoteClick}
             className="hidden md:block bg-brand-secondary text-surface-lowest px-6 py-3 font-mono text-xs font-semibold uppercase tracking-wider rounded-[2px] hover:bg-brand-primary transition-all duration-300 active:scale-95"
@@ -101,13 +94,6 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
               </a>
             ))}
             <div className="flex flex-col gap-3 pt-4">
-              <a
-                href="tel:+1410234456"
-                className="flex items-center gap-2 font-mono text-sm font-bold text-brand-primary"
-              >
-                <Phone className="h-4 w-4 text-brand-secondary" />
-                <span>Call Us: +1 (410) 234-456</span>
-              </a>
               <button
                 onClick={() => {
                   setIsOpen(false);

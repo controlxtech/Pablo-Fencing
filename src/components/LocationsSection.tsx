@@ -4,7 +4,7 @@
  */
 
 import { useState } from 'react';
-import { MapPin, Navigation, PhoneCall, CheckSquare } from 'lucide-react';
+import { MapPin, Navigation, CheckSquare } from 'lucide-react';
 import { SERVICE_LOCATIONS } from '../data';
 
 export default function LocationsSection() {
@@ -108,23 +108,6 @@ export default function LocationsSection() {
                   <p className="font-display font-bold text-brand-accent uppercase">{activeMeta.response}</p>
                 </div>
 
-                <div>
-                  <span className="text-[10px] font-mono text-neutral-400 block mb-1">LOCAL LINE DIRECT PHONE</span>
-                  <a
-                    href={`tel:${activeMeta.phone.replace(/[^0-9]/g, '')}`}
-                    className="font-mono font-bold text-sm hover:text-brand-accent transition-colors flex items-center gap-1 mt-1"
-                  >
-                    <PhoneCall className="h-3.5 w-3.5 text-brand-secondary" />
-                    <span>{activeMeta.phone}</span>
-                  </a>
-                </div>
-
-                <div>
-                  <span className="text-[10px] font-mono text-neutral-400 block mb-1">TOWN CLEARANCE REPRESENTATIVE ZIP</span>
-                  <p className="font-mono bg-white/10 px-2 py-0.5 rounded text-[11px] w-fit font-bold">
-                    FL #{activeMeta.zip}
-                  </p>
-                </div>
               </div>
 
               {/* Checkmark guarantee bullet points */}

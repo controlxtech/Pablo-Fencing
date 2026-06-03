@@ -34,11 +34,11 @@ export default function AboutSection() {
             {/* Expanded Detailed Background */}
             {isExpanded && (
               <div className="bg-surface-low p-6 rounded-[2px] border-l-4 border-brand-secondary mb-8 animate-fade-in text-xs sm:text-sm">
-                <h4 className="font-display font-black text-xs text-brand-primary uppercase tracking-wider mb-2">Our Certified Pledges:</h4>
-                <ul className="space-y-2 text-muted-text list-disc pl-4">
-                  <li><strong>Hurricane Tie Sizing:</strong> Every wooden slat incorporates triple-coat zinc galvanized rings for increased wind tolerances.</li>
-                  <li><strong>HOA Compliance Navigation:</strong> We verify setback rules and layout diagrams directly with your committee boards to guarantee compliance.</li>
-                  <li><strong>Active Site Sourcing:</strong> Safe structural timber cut in native sustainable farms, processed to prevent rot and termites.</li>
+                <h4 className="font-display font-black text-xs text-brand-secondary uppercase tracking-wider mb-2">Our Certified Pledges:</h4>
+                <ul className="space-y-2 text-neutral-text list-disc pl-4">
+                  <li><strong className="text-brand-primary">Hurricane Tie Sizing:</strong> Every wooden slat incorporates triple-coat zinc galvanized rings for increased wind tolerances.</li>
+                  <li><strong className="text-brand-primary">HOA Compliance Navigation:</strong> We verify setback rules and layout diagrams directly with your committee boards to guarantee compliance.</li>
+                  <li><strong className="text-brand-primary">Active Site Sourcing:</strong> Safe structural timber cut in native sustainable farms, processed to prevent rot and termites.</li>
                 </ul>
               </div>
             )}
@@ -72,8 +72,8 @@ export default function AboutSection() {
             <div className="relative rounded-[2px] overflow-hidden shadow-2xl">
               <img
                 className="w-full h-auto object-cover border-4 border-surface-container"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHbncgWP8w9Ua6d6BtQuJN-Poj4oJ7nsDutLcspPXjYAHGuMf6jGzAHRVC_UjBH3cL5Z1_0cmXIfnS1tuOaGX33j8wt2N5ja4lyBbDThE9Ejq3CaKFWhRZhEVucgFqYilvyjB7PPTpWj6ZxQFNbJY0gkmRXpyqFRgn9RYcSLnndjgWQWxMMHOH021O-bXQZk9Zohn2heKYoBx0RXRWGrV0BVs8RSZheMhUQ4-s3bmdlvSnIdq8RaKFMEbunhZnUd2FMrjqe84-jYE"
-                alt="Pablo Fencing engineering specialists reviewing site layout maps and structural blueprints"
+                src="https://d1qpm27e29dlmy.cloudfront.net/wp-content/uploads/2025/09/13102346/sarasota-fence-company-1920x1280-1.webp"
+                alt="Pablo Fencing professional installation in Sarasota Florida"
               />
               {/* Backed overlay indicator */}
               <div className="absolute inset-0 bg-brand-primary/10 hover:bg-transparent transition-all pointer-events-none"></div>

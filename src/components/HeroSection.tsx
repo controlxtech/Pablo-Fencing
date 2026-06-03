@@ -62,7 +62,7 @@ export default function HeroSection({ quoteFormId }: HeroSectionProps) {
         {/* Left: Brand Value Proposition */}
         <div className="lg:col-span-7 flex flex-col items-start pt-8">
           <span className="inline-block bg-brand-secondary text-surface-lowest px-4 py-1.5 font-mono text-[11px] font-bold uppercase tracking-widest mb-6 rounded-sm">
-            LICENSED & INSURED • REG. FL #BC456475
+            FREE ESTIMATES • LICENSED & FULLY INSURED
           </span>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black mb-6 leading-tight uppercase tracking-tight text-white">
@@ -71,7 +71,7 @@ export default function HeroSection({ quoteFormId }: HeroSectionProps) {
           </h1>
 
           <p className="font-sans text-base sm:text-lg mb-8 max-w-xl opacity-90 text-neutral-50">
-            For 20+ years, we have provided Central Florida's land and property owners with structural excellence,
+            For 20+ years, we have provided Florida property owners with structural excellence,
             clear certified pricing, and fences engineered to withstand category-4 storms.
           </p>
 
