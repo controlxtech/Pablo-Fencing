@@ -4,7 +4,7 @@
  */
 
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Phone, MapPin } from 'lucide-react';
 
 interface TopNavBarProps {
   onQuoteClick: () => void;
@@ -21,7 +21,16 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-brand-primary/10 bg-surface-lowest/95 backdrop-blur-md transition-all duration-300">
+    <header className="sticky top-0 z-50 w-full">
+      {/* Service area announcement bar */}
+      <div className="w-full bg-brand-secondary text-white py-2 px-6">
+        <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest">
+          <MapPin className="h-3.5 w-3.5 text-brand-accent flex-shrink-0" />
+          <span>Proudly Serving <span className="text-brand-accent">Dallas, Texas</span> & Surrounding Areas</span>
+        </div>
+      </div>
+
+      <div className="border-b border-brand-primary/10 bg-surface-lowest/95 backdrop-blur-md transition-all duration-300">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Logo and Brand Name */}
         <a href="#home" className="flex items-center gap-3 transition-transform hover:scale-[1.01]" id="brand-logo-container">
@@ -56,6 +65,13 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
 
         {/* Desktop Quote Button & Mobile Menu Toggle */}
         <div className="flex items-center gap-4">
+          <a
+            href="tel:+14695876255"
+            className="hidden lg:flex items-center gap-2 font-mono text-xs font-bold text-brand-primary hover:text-brand-secondary transition-colors"
+          >
+            <Phone className="h-4 w-4 text-brand-secondary" />
+            <span>+1 469-587-6255</span>
+          </a>
           <button
             onClick={onQuoteClick}
             className="hidden md:block bg-brand-secondary text-surface-lowest px-6 py-3 font-mono text-xs font-semibold uppercase tracking-wider rounded-[2px] hover:bg-brand-primary transition-all duration-300 active:scale-95"
@@ -91,6 +107,13 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
               </a>
             ))}
             <div className="flex flex-col gap-3 pt-4">
+              <a
+                href="tel:+14695876255"
+                className="flex items-center gap-2 font-mono text-sm font-bold text-brand-primary"
+              >
+                <Phone className="h-4 w-4 text-brand-secondary" />
+                <span>+1 469-587-6255</span>
+              </a>
               <button
                 onClick={() => {
                   setIsOpen(false);
@@ -105,6 +128,7 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
           </div>
         </div>
       )}
+      </div>
     </header>
   );
 }

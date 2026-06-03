@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Mail, ShieldAlert, Award, Radio } from 'lucide-react';
+import { Mail, Phone, MapPin, ShieldAlert, Award, Radio } from 'lucide-react';
 
 export default function FooterSection() {
   const currentYear = new Date().getFullYear();
@@ -137,7 +137,19 @@ export default function FooterSection() {
               Get In Touch
             </h5>
             <ul className="space-y-5 text-xs sm:text-sm text-neutral-400">
-              <li className="flex gap-4.5 items-center">
+              <li className="flex gap-3 items-start">
+                <MapPin className="h-5 w-5 text-brand-secondary flex-shrink-0 mt-0.5" />
+                <span className="leading-relaxed">
+                  2100 N Greenville Ave,<br />Richardson, TX 75082, USA
+                </span>
+              </li>
+              <li className="flex gap-3 items-center">
+                <Phone className="h-5 w-5 text-brand-secondary flex-shrink-0" />
+                <a href="tel:+14695876255" className="hover:text-brand-secondary transition-colors font-mono">
+                  +1 469-587-6255
+                </a>
+              </li>
+              <li className="flex gap-3 items-center">
                 <Mail className="h-5 w-5 text-brand-secondary flex-shrink-0" />
                 <a href="mailto:info@pablofencing.com" className="hover:text-brand-secondary transition-colors">
                   info@pablofencing.com

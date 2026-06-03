@@ -67,7 +67,7 @@ export default function LocationsSection() {
                   onClick={() => setSelectedCity(city)}
                   className={`group p-4 bg-surface-low border border-brand-primary/5 rounded-[2px] flex justify-between items-center transition-all duration-300 cursor-pointer text-left ${
                     itemIsActive
-                      ? 'bg-brand-secondary border-brand-secondary text-white shadow-md scale-[1.01]'
+                      ? 'bg-brand-secondary border-brand-secondary text-brand-accent shadow-md scale-[1.01]'
                       : 'hover:bg-brand-primary hover:text-white'
                   }`}
                 >
@@ -76,7 +76,7 @@ export default function LocationsSection() {
                   </span>
                   <Navigation
                     className={`h-3.5 w-3.5 text-brand-secondary group-hover:text-white transition-all transform ${
-                      itemIsActive ? 'text-white rotate-45 translate-x-1' : ''
+                      itemIsActive ? 'text-brand-accent rotate-45 translate-x-1' : ''
                     }`}
                   />
                 </button>
