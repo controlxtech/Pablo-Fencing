@@ -26,14 +26,14 @@ export default function FooterSection() {
               <img
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3YAMfdBGka5hF3JnHJiumVcGX-nZnb36tCtlj735tLTdzXp1o6Zd3bdFUydxaOfQ9TfJFKE7wWxDA5Docmuj0SGPTbt1bY0XSdjpOCFfp3TVKEs6rlWVciJ9n1l7_4i91OFaFAuEM97Ms8ZoA9MovDEl-4QBSonKhaHlDsQIeAXullz6aaea4cVNBsuaIClI-6zXhHAPathEojT7Ixhn7VWdQZTaJI3yTmA1IHdXLAKFNxJO0h8WmGFHI6FUJN1nb00ssnVmCoDg"
                 alt="Pablo Fencing Logo"
-                className="h-14 w-auto brightness-0 invert"
+                className="h-14 w-auto object-contain"
               />
-              <div className="flex flex-col">
-                <span className="font-display text-lg font-black uppercase tracking-tight text-white leading-none">
+              <div className="flex flex-col justify-center">
+                <span className="font-display text-xl font-black uppercase tracking-tighter text-white leading-none">
                   PABLO FENCING
                 </span>
-                <span className="font-mono text-[9px] font-bold text-brand-secondary tracking-widest mt-0.5">
-                  BUILT TOUGH
+                <span className="font-mono text-[9px] font-bold uppercase tracking-widest text-brand-secondary mt-0.5">
+                  Built tough, backed by Pablo
                 </span>
               </div>
             </div>
@@ -166,8 +166,7 @@ export default function FooterSection() {
             PABLO FENCING
           </h1>
           <p className="text-center text-xs text-neutral-500 font-mono tracking-wider relative z-10">
-            © {currentYear} Pablo Fencing. Built Tough. Backed by Pablo. All Rights Reserved. <br />
-            Registered Certified Building Contractors. Reg FL BC#456475.
+            © {currentYear} Pablo Fencing. Built Tough. Backed by Pablo. All Rights Reserved.
           </p>
         </div>
 
