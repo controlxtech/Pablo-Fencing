@@ -15,6 +15,7 @@ import ProcessSection from './components/ProcessSection';
 import AboutSection from './components/AboutSection';
 import FAQSection from './components/FAQSection';
 import LocationsSection from './components/LocationsSection';
+import ReviewsSection from './components/ReviewsSection';
 import BlogSection from './components/BlogSection';
 import FooterSection from './components/FooterSection';
 
@@ -55,6 +56,9 @@ export default function App() {
         {/* Why choose us values overview */}
         <WhyChooseUs />
 
+        {/* Customer reviews & testimonials */}
+        <ReviewsSection />
+
         {/* Services interactive selector */}
         <ServicesSection />
 
@@ -73,8 +77,8 @@ export default function App() {
         {/* Selected regional dispatch and zip guides */}
         <LocationsSection />
 
-        {/* Educational publication guides and slideshow */}
-        <BlogSection />
+        {/* Educational publication guides and slideshow — temporarily hidden */}
+        {/* <BlogSection /> */}
 
         {/* Call-to-Action Segment */}
         <section className="py-24 bg-brand-primary relative overflow-hidden" id="cta-block">

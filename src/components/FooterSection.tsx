@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { MapPin, Mail, Phone, ShieldAlert, Award, Radio } from 'lucide-react';
+import { Mail, ShieldAlert, Award, Radio } from 'lucide-react';
 
 export default function FooterSection() {
   const currentYear = new Date().getFullYear();
@@ -134,25 +134,13 @@ export default function FooterSection() {
           {/* Col 4: Contact info */}
           <div>
             <h5 className="font-display font-black text-sm uppercase tracking-widest text-white mb-8 border-l-2 border-brand-secondary pl-3">
-              Regional Office
+              Get In Touch
             </h5>
             <ul className="space-y-5 text-xs sm:text-sm text-neutral-400">
-              <li className="flex gap-4.5 items-start">
-                <MapPin className="h-5 w-5 text-brand-secondary flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed">
-                  736 Blue Spring Ave. <br />Smithtown, NY 11787
-                </span>
-              </li>
               <li className="flex gap-4.5 items-center">
                 <Mail className="h-5 w-5 text-brand-secondary flex-shrink-0" />
-                <a href="mailto:info@pablofence.com" className="hover:text-brand-secondary transition-colors">
-                  info@pablofence.com
-                </a>
-              </li>
-              <li className="flex gap-4.5 items-center">
-                <Phone className="h-5 w-5 text-brand-secondary flex-shrink-0" />
-                <a href="tel:+1410234456" className="hover:text-brand-secondary transition-colors font-mono">
-                  +1 (410) 234-456
+                <a href="mailto:info@pablofencing.com" className="hover:text-brand-secondary transition-colors">
+                  info@pablofencing.com
                 </a>
               </li>
             </ul>

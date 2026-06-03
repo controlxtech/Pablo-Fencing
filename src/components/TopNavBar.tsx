@@ -14,13 +14,10 @@ export default function TopNavBar({ onQuoteClick }: TopNavBarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
+    { name: 'Installation Services', href: '#services' },
+    { name: 'Reviews', href: '#reviews' },
     { name: 'About Us', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'FAQ', href: '#faq' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Areas We Serve', href: '#locations' },
   ];
 
   return (
