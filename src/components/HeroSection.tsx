@@ -53,8 +53,8 @@ export default function HeroSection({ quoteFormId }: HeroSectionProps) {
         <div className="absolute inset-0 bg-brand-primary/55 scrim-hero z-10" />
         <img
           className="w-full h-full object-cover"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyW4GZZ4pOrXesS-Sc6uo8_GwD6-bKgudqRvJvHw4UT2iKu13fFAcZEbh3e6ONdD3-7V7UJBETVXF_egXVH6Ow5AAxaAckWhhuQRNsRg042b4gSKrPJ6jBUmJkXSqPcdDNrxDlKd7LInqzZOB0vTWadVS5h-l6ELDpVQf6QBrG85YME41rh-dxVGyzA7bgdrmAhjA2Vk9XLpakRIQuNk6kh3O6pLJAJHrSYxiAPv1D1x0PKlqS9u5KxZ-gPIlIH06d31TXI8S_n20"
-          alt="Modern horizontal slat aluminum fencing backdrop"
+          src="https://images.pexels.com/photos/7031594/pexels-photo-7031594.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          alt="Modern luxury home exterior with sleek fence and lush greenery"
         />
       </div>
 
