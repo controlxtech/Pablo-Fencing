@@ -50,7 +50,7 @@ export default function HeroSection({ quoteFormId }: HeroSectionProps) {
     <section id="home" className="relative min-h-[95vh] flex items-center py-16 text-surface-lowest overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-brand-primary/55 scrim-hero z-10" />
+        <div className="absolute inset-0 bg-brand-primary/75 scrim-hero z-10" />
         <img
           className="w-full h-full object-cover"
           src="https://cdn.prod.website-files.com/62e33ccdf77cdb3e2321f01a/694845d8ffddb8d1a2b453ed_Resource%20Page%20Banner%20300ppi-p-3200.avif"
