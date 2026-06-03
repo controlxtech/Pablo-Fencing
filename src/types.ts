@@ -52,10 +52,8 @@ export interface BlogPost {
 
 export interface QuoteFormData {
   fullName: string;
+  phone: string;
   email: string;
   serviceType: string;
-  fenceMaterial: string;
-  fenceLength: number; // in linear feet
-  fenceHeight: string;
   message: string;
 }
