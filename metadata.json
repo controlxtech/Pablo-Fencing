@@ -1,0 +1,6 @@
+{
+  "name": "Pablo Fencing",
+  "description": "Fences Built Tough and Backed by Pablo. Custom wooden, aluminum, and vinyl fencing solution provider in Central Florida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
