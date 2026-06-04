@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
     id: 'p1',
     name: 'Premium Backyard Privacy Fence',
     type: 'Wood',
-    location: 'Orlando, Florida',
+    location: 'Dallas, Texas',
     description: 'A sleek modern cedar privacy fence that creates a safe and cozy outdoor space for family gatherings and relaxation.',
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA5TGjr9P-SCUybPuDFQMxhf1ipNkgkVZnmMKii2ReD_N2xXVxYjd4xSa25uIozyEFsC5G4ko67UsPKrQVuiyYobTu_EtO2AChvIo1Z4dra1fIDmP4D0wAioNCSzlw5DeP-EzYlNzD473RIydI2xlIA86VpIshPLceDBphO2eLfzg89KtCuUfEl3vMqLkn-xW8NZRf-C4-32K3tCHENkXbEOLN5YhuzxprqbKY9vpfIne24y76O7pdGpYywnT85GbKCRKvuxthb_gM',
     specs: {
@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
     id: 'p2',
     name: 'Classic Vinyl Picket Fence',
     type: 'Vinyl',
-    location: 'Winter Park, Florida',
+    location: 'Plano, Texas',
     description: 'A white vinyl picket fence surrounding a charming suburban house with a green lawn. Highly weather-resistant and zero maintenance.',
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC9d0IXuwHgM-kc3uj3Jq6ER1ovV4MbmgToHkalHUAmRESYdek-smWptYjOUCt6-oFdR7MjBy7k6e55NwjRcoOmH2CKVxHKe0AhduMNhiI23cymUvU-pxEF71ydixx5IFsozICrpQLBsY_1xjn-7hDON9q0d39o8gne3FcFkvFv_iUhF2nWGO6zW4e-AX5DuvxEh3pN6ABul8J8KG3VwGXRVIPnzXWhy2NmTfo7f_oDKYNFHVR8lDuvzTU1SrTUi9rkfrgkrhSf3Ek',
     specs: {
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
     id: 'p3',
     name: 'Modern Pool Safety Fencing',
     type: 'Pool',
-    location: 'Kissimmee, Florida',
+    location: 'Frisco, Texas',
     description: 'A modern industrial black aluminum pool fence with sleek vertical bars. Safe, beautiful, and fully compliant with state pool codes.',
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuABbtVkcm-bYhzN-Lyf7p5cRG3yu6EH2Z8WnQU033BXoKoXiY7dmVwpMzNxxMeAmDS6g_kRtctp3d9SuDiLDgbi27BdKsZJeq2SwOGidLxt3fOcjKK_hV28_YRyHosSMAu0Ctuh0tJR2BGwD7fawhIf9jt3iSJcyPc6-TM5AvhfLhqjIQBotbg_gO8xZDMEo6pgm-vHSuVqqfxmcSRFKcSVsDGohkA-euwwZqBGcBUVLyy78jx23i4CpsNXmQmAw_oSpjhcnAqjigY',
     specs: {
@@ -87,7 +87,7 @@ export const PROJECTS: Project[] = [
     id: 'p4',
     name: 'Heavy-Duty Industrial Security Fence',
     type: 'Aluminum',
-    location: 'Sanford, Florida',
+    location: 'Fort Worth, Texas',
     description: 'Commercial grade black aluminum spikes with reinforced industrial framing. Designed for extreme durability and vehicle perimeter security.',
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDTxctZjL1qBYb69oe8g0f4FLdrHFjUuy3xGA2Ti59dk1ovJ19zz3mUJLYOOolgsR-ZwgwsXWMwE_PWCNjyUxa0xBguKSSAgnS4LNqSCtVL8MLKBEi-EWzdYKeqaYrQ7szOVn74Lp2Sb2xuqFzU1mLUHNPnlYYdGKXboElAyAmRu4NsaFwVL2BcD7r9llXJfLF8hnUw_tj_E3FYsRHkFwgGYzhMfCUSsVMuOW-uzGQWSqHHH1fmcXPf8IKIGhohfY5a8251VUnbnxc',
     specs: {
@@ -149,7 +149,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: 'f4',
     question: 'How deep are the structural fence posts anchored?',
-    answer: 'At Pablo Fencing, every structural corner and gate post is placed 24 to 36 inches deep, firmly set with quick-cure structural concrete. This ensures your fence stays stable against Florida’s tropical storms and heavy shifting sands.',
+    answer: `At Pablo Fencing, every structural corner and gate post is placed 24 to 36 inches deep, firmly set with quick-cure structural concrete. This ensures your fence stays stable against Texas weather, high winds, and the expansive clay soils common across the Dallas area.`,
   },
 ];
 
@@ -181,16 +181,16 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const SERVICE_LOCATIONS = [
-  'Orlando',
-  'Kissimmee',
-  'Miami',
-  'Fort Lauderdale',
-  'Coral Springs',
-  'Boca Raton',
-  'West Palm Beach',
-  'Hollywood',
-  'Winter Park',
-  'Sanford',
-  'Celebration',
-  'Altamonte Springs',
+  'Dallas',
+  'Fort Worth',
+  'Plano',
+  'Garland',
+  'Irving',
+  'Frisco',
+  'McKinney',
+  'Arlington',
+  'Grand Prairie',
+  'Mesquite',
+  'Carrollton',
+  'Richardson',
 ];

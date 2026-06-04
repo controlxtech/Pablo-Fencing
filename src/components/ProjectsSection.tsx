@@ -38,7 +38,7 @@ export default function ProjectsSection() {
             </h2>
           </div>
           <p className="max-w-md font-sans text-sm sm:text-base text-muted-text">
-            Explore our recent fencing projects and see how we deliver unmatched privacy, wind resistance, and street-side beauty for Florida families.
+            Explore our recent fencing projects and see how we deliver unmatched privacy, wind resistance, and street-side beauty for Dallas, Texas families.
           </p>
         </div>
 

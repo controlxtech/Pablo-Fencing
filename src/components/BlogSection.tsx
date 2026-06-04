@@ -24,7 +24,7 @@ export default function BlogSection() {
             DISCOVER <span className="text-brand-secondary">FENCING GUIDES</span> & TRENDS
           </h2>
           <p className="font-sans text-sm text-muted-text max-w-xl mx-auto">
-            Practical breakdowns of Florida municipal building codes, timber lifespan analysis, and preventative maintenance tips to double your fence's longevity.
+            Practical breakdowns of Texas municipal building codes, timber lifespan analysis, and preventative maintenance tips to double your fence's longevity.
           </p>
         </div>
 
@@ -129,11 +129,11 @@ export default function BlogSection() {
               {/* Render fictional article detailed text based on category */}
               <div className="font-sans text-xs sm:text-sm text-muted-text space-y-4 leading-relaxed">
                 <p>
-                  Building structural items like perimeters, perches, or privacy structures isn’t as straightforward as dropping picket lines on dirt. In Florida's extreme shifting sands and damp wetlands, soil compositions challenge post alignments.
+                  Building structural items like perimeters, perches, or privacy structures isn’t as straightforward as dropping picket lines on dirt. In the Dallas area’s expansive clay soils and high-wind corridors, soil compositions challenge post alignments.
                 </p>
                 <div className="bg-surface-low p-4 border-l-4 border-brand-secondary rounded-[2px]">
                   <p className="font-bold text-brand-primary mb-1">Key Local Regulations:</p>
-                  <p className="text-xs">Most Central Florida counties prohibit privacy fencing taller than 6 feet on residential rear yards, and 4 feet on front yards, to preserve sightlines for emergency vehicles and storm checks.</p>
+                  <p className="text-xs">Most Dallas-area counties prohibit privacy fencing taller than 8 feet on residential rear yards, and 4 feet on front yards, to preserve sightlines for emergency vehicles and comply with local ordinances.</p>
                 </div>
                 <p>
                   When selecting wood, always verify that the pine is chemically standard-treated to prevent termite degradation. For aluminum and composite steel lines, request certified powder-coating bounds to preserve the metal layout against heavy UV and thermal rays.
@@ -146,7 +146,7 @@ export default function BlogSection() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-4.5 w-4.5 text-brand-secondary mt-0.5 flex-shrink-0" />
-                    <span><strong>Vinyl gate spraydown:</strong> Wash down hinges once a season with mild soapy liquid. Avoid oil-lubes that attract Florida sand particles.</span>
+                    <span><strong>Vinyl gate spraydown:</strong> Wash down hinges once a season with mild soapy liquid. Avoid oil-lubes that attract Texas dust and debris particles.</span>
                   </li>
                 </ul>
               </div>

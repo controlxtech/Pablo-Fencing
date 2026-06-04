@@ -39,7 +39,7 @@ export default function FooterSection() {
             </div>
 
             <p className="font-sans text-xs sm:text-sm text-neutral-400 leading-relaxed mb-6">
-              Expert fence installation, emergency repair, and automated security gates across Central Florida. Fences built lock-tight, backed by Pablo's personal warranty.
+              Expert fence installation, emergency repair, and automated security gates across Dallas, Texas and surrounding areas. Fences built lock-tight, backed by Pablo's personal warranty.
             </p>
 
             <div className="flex gap-3">

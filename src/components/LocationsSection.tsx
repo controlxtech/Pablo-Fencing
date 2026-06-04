@@ -8,29 +8,26 @@ import { MapPin, Navigation, CheckSquare } from 'lucide-react';
 import { SERVICE_LOCATIONS } from '../data';
 
 export default function LocationsSection() {
-  const [selectedCity, setSelectedCity] = useState<string>('Orlando');
+  const [selectedCity, setSelectedCity] = useState<string>('Dallas');
 
-  // Custom metadata to display for selected city to mock real databases
-  const cityMeta: Record<string, { crew: string; response: string; phone: string; zip: string }> = {
-    'Orlando': { crew: 'Orange County Crew Alpha', response: 'Within 2 Hours', phone: '(407) 811-2349', zip: '32801' },
-    'Kissimmee': { crew: 'Osceola County Crew Beta', response: 'Same Day', phone: '(407) 811-8557', zip: '34741' },
-    'Miami': { crew: 'Dade County South Crew', response: 'Within 24 Hours', phone: '(305) 545-9821', zip: '33101' },
-    'Fort Lauderdale': { crew: 'Broward County East Crew', response: 'Within 4 Hours', phone: '(954) 762-9011', zip: '33301' },
-    'Coral Springs': { crew: 'Broward County West Team', response: 'Same Day', phone: '(954) 762-4432', zip: '33065' },
-    'Boca Raton': { crew: 'Palm Beach County South Team', response: 'Within 2 Hours', phone: '(561) 998-1123', zip: '33431' },
-    'West Palm Beach': { crew: 'Palm Beach County North Crew', response: 'Within 4 Hours', phone: '(561) 998-8541', zip: '33401' },
-    'Hollywood': { crew: 'Dade-Broward Border Dispatch', response: 'Within 2 Hours', phone: '(305) 545-2209', zip: '33019' },
-    'Winter Park': { crew: 'Orange County Crew Beta', response: 'Same Day', phone: '(407) 811-4512', zip: '32789' },
-    'Sanford': { crew: 'Seminole County structural Crew', response: 'Within 24 Hours', phone: '(407) 811-3004', zip: '32771' },
-    'Celebration': { crew: 'Osceola County Crew Alpha', response: 'Same Day', phone: '(407) 811-0988', zip: '34747' },
-    'Altamonte Springs': { crew: 'Seminole County South Crew', response: 'Within 4 Hours', phone: '(407) 811-7711', zip: '32701' },
+  const cityMeta: Record<string, { crew: string; response: string }> = {
+    'Dallas':       { crew: 'Dallas County Central Crew',      response: 'Within 2 Hours' },
+    'Fort Worth':   { crew: 'Tarrant County West Crew',        response: 'Within 4 Hours' },
+    'Plano':        { crew: 'Collin County North Crew',        response: 'Same Day' },
+    'Garland':      { crew: 'Dallas County East Crew',         response: 'Within 2 Hours' },
+    'Irving':       { crew: 'Dallas County West Crew',         response: 'Same Day' },
+    'Frisco':       { crew: 'Collin County Crew Alpha',        response: 'Same Day' },
+    'McKinney':     { crew: 'Collin County North Team',        response: 'Within 4 Hours' },
+    'Arlington':    { crew: 'Tarrant County Central Crew',     response: 'Within 2 Hours' },
+    'Grand Prairie':{ crew: 'Dallas–Tarrant Border Crew',      response: 'Same Day' },
+    'Mesquite':     { crew: 'Dallas County Southeast Crew',    response: 'Within 2 Hours' },
+    'Carrollton':   { crew: 'Denton–Dallas Crew Alpha',        response: 'Same Day' },
+    'Richardson':   { crew: 'Collin–Dallas Border Crew',       response: 'Within 2 Hours' },
   };
 
   const activeMeta = cityMeta[selectedCity] || {
-    crew: 'Central Florida Dispatch Team',
+    crew: 'Dallas–Fort Worth Dispatch Team',
     response: 'Within 24 Hours',
-    phone: '(410) 234-456',
-    zip: '32801',
   };
 
   return (
@@ -49,7 +46,7 @@ export default function LocationsSection() {
           </div>
           <div className="flex-1 lg:max-w-md">
             <p className="font-sans text-sm sm:text-base text-muted-text mb-6">
-              We operate across multiple Florida cities, bringing durable, certified construction grades to homeowners and commercial yards alike. Select your city below to sync local parameters.
+              We operate across Dallas, Texas and its surrounding cities, bringing durable, certified construction grades to homeowners and commercial yards alike. Select your city below to check local coverage.
             </p>
           </div>
         </div>
@@ -114,7 +111,7 @@ export default function LocationsSection() {
               <div className="space-y-2 border-t border-white/10 pt-4 text-[11px]">
                 <div className="flex items-start gap-2 text-neutral-300">
                   <CheckSquare className="h-4 w-4 text-brand-accent mt-0.5 flex-shrink-0" />
-                  <span>Licensed for Orange & surrounding counties</span>
+                  <span>Licensed for Dallas & surrounding counties</span>
                 </div>
                 <div className="flex items-start gap-2 text-neutral-300">
                   <CheckSquare className="h-4 w-4 text-brand-accent mt-0.5 flex-shrink-0" />

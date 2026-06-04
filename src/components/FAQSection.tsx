@@ -30,7 +30,7 @@ export default function FAQSection() {
               QUESTIONS <span className="text-brand-secondary">ANSWERED</span>
             </h2>
             <p className="font-sans text-sm sm:text-base text-muted-text mb-8">
-              Cannot find the technical clearances you require? Reach out to our Smithtown office or call us directly—we’re always happy to assist with state land laws or site calculations.
+              Cannot find the technical clearances you require? Reach out to our Richardson, TX office or call us directly—we’re always happy to assist with state land laws or site calculations.
             </p>
 
             <div className="bg-brand-secondary/5 p-5 border-l-4 border-brand-secondary rounded-[2px] space-y-3">

@@ -25,7 +25,7 @@ export default function AboutSection() {
               & BEAUTY FOR <span className="text-brand-secondary">20+ YEARS</span>
             </h2>
             <p className="font-sans text-sm sm:text-base text-muted-text mb-6 leading-relaxed">
-              For Pablo Fencing, anchoring raw posts isn't simply about boundary lines—it is about carving secure, durable, and breathtaking sanctuaries for Florida families. We utilize premium, sustainably sourced wood timbers and weather-tested metals to ensure years of zero-maintenance structural safety.
+              For Pablo Fencing, anchoring raw posts isn't simply about boundary lines—it is about carving secure, durable, and breathtaking sanctuaries for Dallas, Texas families. We utilize premium, sustainably sourced wood timbers and weather-tested metals to ensure years of zero-maintenance structural safety.
             </p>
             <p className="font-sans text-sm sm:text-base text-muted-text mb-8 leading-relaxed">
               We operate across residential backyards and commercial compounds alike, guaranteeing absolute customer service and honest local estimates from day one.
@@ -73,7 +73,7 @@ export default function AboutSection() {
               <img
                 className="w-full h-auto object-cover border-4 border-surface-container"
                 src="https://d1qpm27e29dlmy.cloudfront.net/wp-content/uploads/2025/09/13102346/sarasota-fence-company-1920x1280-1.webp"
-                alt="Pablo Fencing professional installation in Sarasota Florida"
+                alt="Pablo Fencing professional installation in Dallas Texas"
               />
               {/* Backed overlay indicator */}
               <div className="absolute inset-0 bg-brand-primary/10 hover:bg-transparent transition-all pointer-events-none"></div>
@@ -114,7 +114,7 @@ export default function AboutSection() {
                   Built Tough: The Pablo Assembly Process
                 </h3>
                 <p className="font-sans text-xs text-neutral-300 max-w-md mx-auto mb-6">
-                  Learn how we sink posts, mix custom 4000-PSI strength concrete, and align vertical brackets for wind tolerance in Florida sandy soils.
+                  Learn how we sink posts, mix custom 4000-PSI strength concrete, and align vertical brackets for wind tolerance in Dallas's expansive clay soils.
                 </p>
 
                 <div className="flex gap-4 text-[10px] font-mono font-bold uppercase tracking-wide">
@@ -124,7 +124,7 @@ export default function AboutSection() {
                   </span>
                   <span className="bg-white/10 px-3 py-1.5 rounded-sm flex items-center gap-1">
                     <Heart className="h-3.5 w-3.5 text-brand-accent" />
-                    Florida Local
+                    Texas Local
                   </span>
                 </div>
               </div>

@@ -23,7 +23,7 @@ export default function ServicesSection() {
             EXPERT INSTALLATION & <br />REPAIR SOLUTIONS
           </h2>
           <p className="font-sans text-sm sm:text-base text-neutral-300 mb-10 max-w-xl">
-            We provide full-scope design, structural boring, post setting, and hardware tuning. We use only selected Florida weather-resistant materials to ensure absolute peace of mind.
+            We provide full-scope design, structural boring, post setting, and hardware tuning. We use only selected Texas weather-resistant materials to ensure absolute peace of mind.
           </p>
 
           {/* Interactive List */}
